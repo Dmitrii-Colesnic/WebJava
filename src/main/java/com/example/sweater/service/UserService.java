@@ -124,10 +124,11 @@ public class UserService implements UserDetailsService {
         }
 
         userRepo.save(user);
-/*
+
         if (isEmailChanged) {
             sendMessage(user);
         }
-        */
     }
 }
+
+
